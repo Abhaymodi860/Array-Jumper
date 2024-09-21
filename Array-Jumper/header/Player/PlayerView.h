@@ -8,6 +8,7 @@ namespace Player
 	{
 	private:
 		sf::RenderWindow* game_window;
+		PlayerController* player_controller;
 		UI::UIElement::ImageView* player_image;
 
 		float player_height;
