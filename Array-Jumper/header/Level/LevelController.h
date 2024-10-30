@@ -1,5 +1,6 @@
 #pragma once
 #include "LevelModel.h"
+#include "BlockType.h"
 
 namespace Level
 {
