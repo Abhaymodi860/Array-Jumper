@@ -20,6 +20,7 @@ namespace Player
 
 		void readInput();
 		void move(MovementDirection direction);
+		void jump(MovementDirection direction);
 		bool isPositionInBound(int targetPosition);
 
 	public:

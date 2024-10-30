@@ -1,5 +1,7 @@
 #pragma once
 
+#include "BlockType.h"
+
 namespace Level
 {
 	class LevelController;
@@ -17,5 +19,7 @@ namespace Level
 		void intialize();
 		void update();
 		void render();
+
+		BlockType getCurrentBoxValue(int currentPosition);
 	};
 }

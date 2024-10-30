@@ -25,6 +25,11 @@ namespace Level
 		level_controller->render();
 	}
 
+	BlockType LevelService::getCurrentBoxValue(int currentPosition)
+	{
+		return level_controller->getCurrentBoxValue(currentPosition);
+	}
+
 	void LevelService::destroy()
 	{
 		delete(level_controller);
